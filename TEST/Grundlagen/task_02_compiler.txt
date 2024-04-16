@@ -1,0 +1,11 @@
+hWarum übersetzt der Java Compiler folgenden Quell-Code:
+
+public class Riddle {
+  public static void main(String[ ] args ) {
+    http://www.java-tutorial.org
+    System.out.println( "Willkommen beim Java-Tutorial." );
+  }
+}
+htpp: ist sprungmarke 
+
+dann kommenter deswegen compliert code ohne probleme 

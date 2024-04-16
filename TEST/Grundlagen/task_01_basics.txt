@@ -1,0 +1,12 @@
+1. Was beschreiben Klassen und Objekte in der OOM? 
+klassen ist bauepalne
+Objekt enthaltet die kalsse und seine Attributte und Methoden 
+
+2. Wie werden Klassen und Objekte in UML-Diagrammen dargestellt?
+
+
+
+
+3. Wozu dient der Konstruktor einer Klasse?
+intialisirt die Aufgaben der Attribute 
+neues objekt der Klasse zu erstellen 

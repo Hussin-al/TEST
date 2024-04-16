@@ -1,0 +1,35 @@
+Modellieren Sie den folgenden Zusammenhang (Pflichtenheft) in einem Klassendiagramm:
+
+1. Es sollen Kunden verwaltet werden
+2. Zu einem Kunden wird sein Name verwaltet, außerdem ein Konto mit Kontonummer und Kontostand
+3. Alle Daten können gelesen werden, der Kontostand kann mit den Methoden einzahlen und auszahlen geändert werden.
+4. Ein Kunde kann nur mit Name oder mit allen Daten erzeugt werden.
+
+
++----------------+             +---------------+          +-------------+
+|    Kunde       |          |                    Konto     |         
++----------------+             +---------------+          
+| - Name: String |<>------->| - Kontonummer: String    
+|                                             | - Kontostand: double       |            
++----------------+          +---------------+                                              
+| + Kunde(name: String)    | + einzahlen(betrag: double): void |
+| + Kunde(name: String,     | + auszahlen(betrag: double): void |
+|    kontonummer: String,  | + getName(): String |
+|   kontostand: double)  | + getKontonummer(): String |
+| + getName(): String       | + getKontostand(): double |
+| + setName(name: String): void |                       |
+| + getKonto(): Konto       |                       |
+| + setKonto(konto: Konto): void |                     |
++----------------+          +---------------+          +-------------+
+
+
+Modellieren Sie zu diesem Sachverhalt ein Objektdiagramm, bei dem ein Kunde Norbert Meier
+über ein Konto mit der Nummer 0815 und einem Guthaben von 2000€ verfügt.
++-----------------+           +------------------+
+|     Kunde                |                      Konto       |
++-----------------+           +------------------+
+| - Name: Norbert Meier           | - Kontonummer: 0815|
+|                                                 | - Guthaben: 2000€ |
++-----------------+           +------------------+
+|                 |           |                  |
++-----------------+           +------------------+

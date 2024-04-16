@@ -1,0 +1,28 @@
+1. Bennen Sie die primitiven Datentypen, die es in Java gibt.
+int , String , boolean , double , char 
+
+2. Was sind Referenztypen?
+Arrays oder Strings oder klasse 
+
+3. Was ist eine Collection in Java?
+
+
+4. Was zeichnet eine Liste in Java aus?
+ist dynamische , die element in bestimmte Reihenfolge  speichert 
+
+5. Was versteht man unter einer Map?
+ assoziative Datenstruktur, die Elemente in Form von Schlüssel-Wert-Paaren speichert.
+
+6. Wofür verwendet man Interfaces?
+ Definition von Schnittstellen , Mehrfachvererbung , Polymorphismus
+
+
+7. Was ist ein Enum?
+
+
+8. Was ist eine Klasse? BauPlan enthält varaible und  Attribute und Methode 
+
+
+9. Was ist der Unterschied zwischen Klasse und Objekt?
+klasse ist BauPlan , und stellt eine Vorlage dar. 
+ Ein Objekt ist eine Instanz einer Klasse. 
